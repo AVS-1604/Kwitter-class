@@ -13,7 +13,7 @@ var firebaseConfig = {
     };
     
     // Initialize Firebase
-    var app = initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig);
 
 function addRoom()
 {
